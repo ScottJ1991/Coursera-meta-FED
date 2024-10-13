@@ -1,34 +1,18 @@
+import Home from "./Home/Home.js";
+import Reservation from "./Reservation/Reservation.js";
+import Book from "./Book/Book.js";
+import Confirmation from "./Confirmation/Confirmation.js";
+
+import { Routes, Route } from "react-router-dom";
 const Main = () => {
 
     return (
-        <main>
-            <section>
-                <article></article>
-                <article></article>
-                <article></article>
-            </section>
-            <section>
-                <article>
-                    <header></header>
-                    <main></main>
-                </article>
-            <article>
-                <header></header>
-                <main></main>
-            </article>
-            <article>
-                <header></header>
-                <main></main>
-            </article>
-            <article>
-                <header></header>
-                <main></main>
-            </article>
-            </section>
-            <section>
-
-            </section>
-      </main>
+        <Routes> 
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/reservation" element={<Reservation/>}></Route>
+            <Route path="/book" element={<Book/>}></Route>
+            <Route path="/confirmation" element={<Confirmation/>}></Route>
+        </Routes>
     );
 };
 

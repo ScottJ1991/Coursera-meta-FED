@@ -3,8 +3,8 @@ import logo from  "../image/footer-logo.png";
 const Footer = () => {
 
     return (
-      <footer>
-        <img src={logo}></img>
+      <footer id="m-footer">
+        <img src={logo} alt=""></img>
         <ul>
             <li>Home</li>
             <li>About</li>

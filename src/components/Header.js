@@ -4,8 +4,8 @@ import logo from  "../image/Logo.svg";
 const Header = () => {
 
     return (
-        <header>
-            <img src={logo}></img>
+        <header id="header">
+            <img src={logo} alt="Company logo"></img>
             <Nav/>
         </header>
     );
