@@ -7,8 +7,8 @@ const About = () => {
         <section id="About">
             <section>
                 <header>
-                    <h3>Little Lemon</h3>
-                    <h4>Chicago</h4>
+                    <h1>Little Lemon</h1>
+                    <h2>Chicago</h2>
                 </header>
                 <main>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.

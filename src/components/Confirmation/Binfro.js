@@ -1,9 +1,9 @@
 const Binfro = () => {
 
     return (
-        <section>
+        <section className="leftMargin">
             <header>
-                <h2>Booking complete</h2>
+                <h1>Booking complete</h1>
             </header>
             <main>
                 <p>E-mail will be send with details of booking if need in future</p>

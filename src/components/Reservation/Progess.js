@@ -1,9 +1,8 @@
-
 const Progess = () => {
 
     return (
         <section id="progress">
-            Progess
+            <header>Progess</header>
             <ul>
                 <li>1</li>
                 <li>2</li>
